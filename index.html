@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+   <!--------------Connecting fonts-------------->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  
+  <title>FAQ accordion</title>
+
+    
+<!--------------Connecting styles-------------->
+ 
+    <link rel="stylesheet" href="assets/css/style-design.css" />
+    <link rel="stylesheet" href="assets/css/style-main.css" />
+
+</head>
+
+<body>
+  <main class="card" role="region" aria-labelledby="faq-title">
+    <header class="faq-header" role="region" aria-labelledby="faq-title">
+        <img 
+          class="img-calculator"
+          src="assets/images/icon-star.svg" 
+          alt="Image Star" 
+          width="24"
+          height="24">
+      
+      <h1 id="faq-title" class="faq-title preset1-mobile">FAQs</h1>
+    </header>
+
+    <fieldset aria-describedby="faq-description">
+      <legend class="sr-only">Frequently Asked Questions</legend>
+      <div id="faq-description" class="sr-only">
+       List of commonly asked questions and answers about Frontend Mentor.
+      </div>
+      <ul class="accordion-list">
+
+  <!--------------item-1-------------->
+
+    <li class="accordion-item">
+     <button class="accordion-question" aria-expanded="false" aria-controls="answer-1">
+      <span class="accordion-text preset2-mobile">What is Frontend Mentor, and how will it help me?</span>
+      <span class="icon" aria-hidden="true">
+        <img class="icon-image"
+        src="assets/images/icon-plus.svg" 
+        alt="Plus icon" 
+        width="24"
+        height="24"
+        />
+      </span>
+      </button>
+
+      <p id="answer-1" class="accordion-answer preset3-mobile" hidden>
+       Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.
+      </p>
+
+    </li>
+
+<!--------------item-2-------------->
+    <li class="accordion-item">
+
+      <button class="accordion-question" aria-expanded="false" aria-controls="answer-2">
+      <span class="accordion-text preset2-mobile">Is Frontend Mentor free?</span>
+      <span class="icon" aria-hidden="true">
+      <img class="icon-image"
+        src="assets/images/icon-plus.svg" 
+        alt="Plus icon" 
+        width="24"
+        height="24"
+        />
+      </span>
+      </button>
+
+      <p id="answer-2" class="accordion-answer preset3-mobile" hidden>
+        Yes, there are both free and premium challenges available.
+      </p>
+
+    </li>
+       
+<!--------------item-3-------------->
+
+     <li class="accordion-item">
+
+       <button class="accordion-question" aria-expanded="false" aria-controls="answer-3">
+        <span class="accordion-text preset2-mobile">Can I use Frontend Mentor projects in my portfolio?</span>
+        <span class="icon" aria-hidden="true">
+        <img class="icon-image"
+        src="assets/images/icon-plus.svg" 
+        alt="Plus icon" 
+        width="24"
+        height="24"
+        />
+      </span>
+       </button>
+
+      <p id="answer-3" class="accordion-answer preset3-mobile" hidden>
+        Absolutely! You can showcase your solutions in your portfolio to demonstrate your skills.
+      </p>
+
+     
+     </li>
+
+   <!--------------item-4-------------->
+
+    <li class="accordion-item">
+
+      <button class="accordion-question" aria-expanded="false" aria-controls="answer-4">
+        <span class="accordion-text preset2-mobile">How can I get help if I'm stuck on a challenge?</span>
+        <span class="icon" aria-hidden="true">
+        <img class="icon-image"
+        src="assets/images/icon-plus.svg" 
+        alt="Plus icon" 
+        width="24"
+        height="24"
+        />
+      </span>
+      </button>
+
+        <p id="answer-4" class="accordion-answer preset3-mobile" hidden>
+    You can ask questions in the Frontend Mentor community or check the solutions posted by others.
+  </p>
+     
+    </li>
+
+    </ul>
+  </main>
+
+
+<footer class="attribution">
+    <span>
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="link">
+      Frontend Mentor
+    </a>.
+  </span>
+
+  <span>
+    Coded by
+    <a href="#" class="link">Savranska Alla</a>.
+  </span>
+  </footer>
+   <script src="assets/js/main.js" type="module"></script>
+
+</body>
+</html>
